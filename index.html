@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#050608">
+  <meta name="description" content="Cinematic scroll-driven creative developer portfolio — [REPLACE WITH YOUR NAME].">
+  <title>[YOUR NAME] — Creative Developer &amp; Motion Architect</title>
+
+  <!-- Google Fonts: Syne (Editorial Display), Plus Jakarta Sans (Body), JetBrains Mono (Technical Meta) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Relative path for GitHub Pages subpath compatibility -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script>
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+  </script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Fixed Atmospheric Backdrop -->
+  <div class="ambient-stage" aria-hidden="true">
+    <div class="ambient-glow ambient-glow--primary"></div>
+    <div class="ambient-glow ambient-glow--secondary"></div>
+    <div class="ambient-grid"></div>
+  </div>
+
+  <!-- Site Header / Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="brand-identity" aria-label="Back to top — Portfolio Home">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">[YOUR NAME]</span>
+        <span class="brand-tag">// DEV.01</span>
+      </a>
+
+      <button
+        type="button"
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Toggle navigation menu"
+      >
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary site navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link" data-nav-link>01. Index</a></li>
+          <li><a href="#artifact" class="nav-link" data-nav-link>02. Core</a></li>
+          <li><a href="#work" class="nav-link" data-nav-link>03. Selected Work</a></li>
+          <li><a href="#process" class="nav-link" data-nav-link>04. Process</a></li>
+          <li><a href="#contact" class="nav-link nav-link--cta" data-nav-link>05. Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- =====================================================================
+         CHAPTER 1: CINEMATIC HERO
+    ====================================================================== -->
+    <section class="chapter hero-chapter" id="hero" aria-labelledby="hero-title">
+      <div class="hero-backdrop-rings" aria-hidden="true">
+        <div class="hero-ring hero-ring--outer"></div>
+        <div class="hero-ring hero-ring--inner"></div>
+        <div class="hero-horizon-beam"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-meta-row" data-hero-meta>
+          <span class="eyebrow-pill">CHAPTER 01 // OPENING SEQUENCE</span>
+          <span class="meta-coords">SYS.SCROLL // INTERACTIVE</span>
+        </div>
+
+        <h1 class="hero-headline" id="hero-title">
+          <span class="headline-line"><span class="headline-word" data-hero-word>I BUILD</span></span>
+          <span class="headline-line"><span class="headline-word headline-word--accent" data-hero-word>WHAT’S</span></span>
+          <span class="headline-line"><span class="headline-word" data-hero-word>NEXT.</span></span>
+        </h1>
+
+        <div class="hero-bottom-grid">
+          <p class="hero-lead" data-hero-lead>
+            <!-- EDITABLE BIO INTRODUCTION -->
+            Creative developer and technology enthusiast crafting tactile web interfaces,
+            scroll-directed narratives, and high-efficiency mobile experiences.
+            <span class="placeholder-note">[Edit introduction in index.html]</span>
+          </p>
+
+          <div class="hero-actions" data-hero-cta>
+            <a href="#work" class="btn btn--primary">
+              <span>Explore Selected Work</span>
+              <span class="btn-arrow" aria-hidden="true">&#8599;</span>
+            </a>
+            <a href="#contact" class="btn btn--ghost">
+              <span>Initiate Contact</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#artifact" class="scroll-cue" id="scroll-cue" aria-label="Scroll to Chapter 2">
+        <span class="scroll-cue-label">SCROLL TO DIRECT</span>
+        <span class="scroll-cue-track" aria-hidden="true">
+          <span class="scroll-cue-thumb"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 2: PINNED CINEMATIC OBJECT
+    ====================================================================== -->
+    <section class="chapter artifact-chapter" id="artifact" aria-labelledby="artifact-heading">
+      <div class="artifact-pin-wrap" id="artifact-pin-wrap">
+        <div class="container artifact-layout">
+          <!-- Left / Top HUD Telemetry -->
+          <div class="artifact-hud">
+            <span class="eyebrow-pill">CHAPTER 02 // SPATIAL ARCHITECTURE</span>
+            <h2 class="section-title artifact-main-title" id="artifact-heading">
+              MOTION LINKED TO INTENTION.
+            </h2>
+            <div class="artifact-progress-readout" aria-hidden="true">
+              <span class="readout-label">TIMELINE SCRUB</span>
+              <span class="readout-value" id="artifact-readout">000%</span>
+            </div>
+          </div>
+
+          <!-- Central 3D Geometric Core -->
+          <div class="artifact-stage" aria-hidden="true">
+            <div class="artifact-halo" id="artifact-halo"></div>
+            <div class="orbit-ring orbit-ring--1" id="orbit-ring-1"></div>
+            <div class="orbit-ring orbit-ring--2" id="orbit-ring-2"></div>
+            <div class="orbit-ring orbit-ring--3" id="orbit-ring-3"></div>
+
+            <div class="prism-assembly" id="prism-assembly">
+              <div class="prism-core-light" id="prism-core-light"></div>
+              <div class="prism-face prism-face--front"><span>01</span></div>
+              <div class="prism-face prism-face--back"><span>02</span></div>
+              <div class="prism-face prism-face--right"><span>03</span></div>
+              <div class="prism-face prism-face--left"><span>04</span></div>
+              <div class="prism-face prism-face--top"></div>
+              <div class="prism-face prism-face--bottom"></div>
+            </div>
+          </div>
+
+          <!-- Staged Narrative Captions -->
+          <div class="artifact-stages-narrative">
+            <article class="stage-card is-active" data-artifact-stage="0">
+              <span class="stage-index">PHASE 01 // STRUCTURE</span>
+              <h3 class="stage-heading">Semantic Foundation</h3>
+              <p class="stage-body">
+                Every interface begins as resilient, accessible markup engineered for narrow mobile viewports first.
+              </p>
+            </article>
+
+            <article class="stage-card" data-artifact-stage="1">
+              <span class="stage-index">PHASE 02 // CHOREOGRAPHY</span>
+              <h3 class="stage-heading">Scroll-Directed State</h3>
+              <p class="stage-body">
+                Instead of arbitrary timers, lighting, depth, and spatial transforms respond directly to your scroll position.
+              </p>
+            </article>
+
+            <article class="stage-card" data-artifact-stage="2">
+              <span class="stage-index">PHASE 03 // EXECUTION</span>
+              <h3 class="stage-heading">Mobile-Safe Precision</h3>
+              <p class="stage-body">
+                GPU-friendly transforms and restrained visual layers keep motion responsive on real-world Android hardware.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 3: SELECTED PROJECTS
+    ====================================================================== -->
+    <section class="chapter work-chapter" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="chapter-header" data-reveal-block>
+          <div class="chapter-header-meta">
+            <span class="eyebrow-pill">CHAPTER 03 // SELECTED WORKS</span>
+            <span class="meta-coords">INDEX [01 — 03]</span>
+          </div>
+          <h2 class="section-title" id="work-heading">ENGINEERED EXPERIENCES.</h2>
+          <p class="section-subtitle">
+            Replace the three placeholder entries below with your real projects, screenshots, and live repository or deployment URLs.
+          </p>
+        </header>
+
+        <div class="projects-ledger">
+          <!-- PROJECT 01 -->
+          <article class="project-entry project-entry--asymmetric-left" data-project-entry>
+            <div class="project-visual-col">
+              <div class="project-frame" data-project-frame>
+                <!-- Embedded SVG artwork guarantees instant load; replace src with ./assets/images/your-image.jpg when ready -->
+                <img
+                  class="project-image"
+                  data-project-img
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  alt="Abstract spatial waveform interface preview for Example Project 01"
+                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23070b14'/%3E%3Cstop offset='55%25' stop-color='%230f1f38'/%3E%3Cstop offset='100%25' stop-color='%2305070b'/%3E%3C/linearGradient%3E%3CradialGradient id='r1' cx='65%25' cy='40%25' r='50%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8' stop-opacity='0.38'/%3E%3Cstop offset='100%25' stop-color='%2305070b' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g1)'/%3E%3Crect width='1200' height='800' fill='url(%23r1)'/%3E%3Cg stroke='%2338bdf8' stroke-opacity='0.22' fill='none' stroke-width='1.5'%3E%3Ccircle cx='780' cy='320' r='240'/%3E%3Ccircle cx='780' cy='320' r='160'/%3E%3Ccircle cx='780' cy='320' r='80'/%3E%3Cpath d='M 80 580 Q 420 260 780 320 T 1120 220' stroke-opacity='0.65' stroke-width='3'/%3E%3Cpath d='M 80 640 Q 440 380 780 320 T 1120 390' stroke-opacity='0.35' stroke-width='2'/%3E%3Cline x1='80' y1='120' x2='1120' y2='120' stroke-opacity='0.12'/%3E%3Cline x1='80' y1='680' x2='1120' y2='680' stroke-opacity='0.12'/%3E%3C/g%3E%3Ctext x='80' y='175' fill='%2394a3b8' font-family='monospace' font-size='20' letter-spacing='4'%3EEXAMPLE VISUAL 01 // REPLACE IN INDEX.HTML%3C/text%3E%3C/svg%3E"
+                >
+                <div class="project-frame-overlay" aria-hidden="true"></div>
+              </div>
+            </div>
+
+            <div class="project-info-col" data-project-info>
+              <div class="project-meta-top">
+                <span class="project-number">01</span>
+                <span class="project-category">HTML5 / CSS Architecture / Audio API</span>
+                <span class="project-status">2026 // PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">[EXAMPLE: AETHER WAVE SYNTH]</h3>
+              <p class="project-description">
+                Example placeholder project. Replace this description with a concise summary of the problem you solved, the architecture you built, and the measurable outcome.
+              </p>
+              <div class="project-links">
+                <a href="#work" class="project-link" aria-label="Open Example Project 01 — Replace href with your live URL">
+                  <span>View Project (Replace URL)</span>
+                  <span class="btn-arrow" aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02 -->
+          <article class="project-entry project-entry--asymmetric-right" data-project-entry>
+            <div class="project-visual-col">
+              <div class="project-frame" data-project-frame>
+                <img
+                  class="project-image"
+                  data-project-img
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  alt="Geometric grid telemetry layout preview for Example Project 02"
+                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%2306080e'/%3E%3Cstop offset='50%25' stop-color='%23111c35'/%3E%3Cstop offset='100%25' stop-color='%23050608'/%3E%3C/linearGradient%3E%3CradialGradient id='r2' cx='35%25' cy='55%25' r='48%25'%3E%3Cstop offset='0%25' stop-color='%2360a5fa' stop-opacity='0.34'/%3E%3Cstop offset='100%25' stop-color='%23050608' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g2)'/%3E%3Crect width='1200' height='800' fill='url(%23r2)'/%3E%3Cg stroke='%2360a5fa' stroke-opacity='0.26' fill='none' stroke-width='1.5'%3E%3Crect x='180' y='160' width='840' height='480'/%3E%3Crect x='260' y='220' width='680' height='360'/%3E%3Cline x1='180' y1='400' x2='1020' y2='400'/%3E%3Cline x1='600' y1='160' x2='600' y2='640'/%3E%3Cpolygon points='600,210 790,400 600,590 410,400' stroke='%23e0f2fe' stroke-opacity='0.6' stroke-width='2.5'/%3E%3C/g%3E%3Ctext x='180' y='130' fill='%2394a3b8' font-family='monospace' font-size='20' letter-spacing='4'%3EEXAMPLE VISUAL 02 // REPLACE IN INDEX.HTML%3C/text%3E%3C/svg%3E"
+                >
+                <div class="project-frame-overlay" aria-hidden="true"></div>
+              </div>
+            </div>
+
+            <div class="project-info-col" data-project-info>
+              <div class="project-meta-top">
+                <span class="project-number">02</span>
+                <span class="project-category">GSAP / Design Systems / Motion UI</span>
+                <span class="project-status">2025 // PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">[EXAMPLE: KINETIC UI ENGINE]</h3>
+              <p class="project-description">
+                Example placeholder project. Describe your role, key technical challenges, and how you optimized interaction responsiveness across mobile and desktop viewports.
+              </p>
+              <div class="project-links">
+                <a href="#work" class="project-link" aria-label="Open Example Project 02 — Replace href with your live URL">
+                  <span>View Project (Replace URL)</span>
+                  <span class="btn-arrow" aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03 -->
+          <article class="project-entry project-entry--editorial-wide" data-project-entry>
+            <div class="project-visual-col">
+              <div class="project-frame" data-project-frame>
+                <img
+                  class="project-image"
+                  data-project-img
+                  width="1200"
+                  height="800"
+                  loading="lazy"
+                  alt="Layered perspective horizon lines preview for Example Project 03"
+                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%23050608'/%3E%3Cstop offset='60%25' stop-color='%230d192b'/%3E%3Cstop offset='100%25' stop-color='%23172554'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g3)'/%3E%3Cg stroke='%2338bdf8' stroke-opacity='0.3' fill='none' stroke-width='1.5'%3E%3Cline x1='0' y1='460' x2='1200' y2='460' stroke='%23e0f2fe' stroke-opacity='0.6' stroke-width='2'/%3E%3Cline x1='600' y1='460' x2='0' y2='800'/%3E%3Cline x1='600' y1='460' x2='240' y2='800'/%3E%3Cline x1='600' y1='460' x2='480' y2='800'/%3E%3Cline x1='600' y1='460' x2='720' y2='800'/%3E%3Cline x1='600' y1='460' x2='960' y2='800'/%3E%3Cline x1='600' y1='460' x2='1200' y2='800'/%3E%3Ccircle cx='600' cy='320' r='95' stroke='%23e0f2fe' stroke-opacity='0.75' stroke-width='2.5'/%3E%3C/g%3E%3Ctext x='80' y='130' fill='%2394a3b8' font-family='monospace' font-size='20' letter-spacing='4'%3EEXAMPLE VISUAL 03 // REPLACE IN INDEX.HTML%3C/text%3E%3C/svg%3E"
+                >
+                <div class="project-frame-overlay" aria-hidden="true"></div>
+              </div>
+            </div>
+
+            <div class="project-info-col" data-project-info>
+              <div class="project-meta-top">
+                <span class="project-number">03</span>
+                <span class="project-category">JavaScript / Data Visualization / SVG</span>
+                <span class="project-status">2025 // PLACEHOLDER</span>
+              </div>
+              <h3 class="project-title">[EXAMPLE: ORBITAL TELEMETRY HUB]</h3>
+              <p class="project-description">
+                Example placeholder project. Replace with your own case study details, technology stack, and a working link to your repository or live demo.
+              </p>
+              <div class="project-links">
+                <a href="#work" class="project-link" aria-label="Open Example Project 03 — Replace href with your live URL">
+                  <span>View Project (Replace URL)</span>
+                  <span class="btn-arrow" aria-hidden="true">&#8599;</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         CHAPTER 4: ABOUT AND CREATIVE PROCESS
+    ====================================================================== -->
+    <section class="chapter process-chapter" id="process" aria-labelledby="process-heading">
+      <div class="process-parallax-bg" aria-hidden="true" data-process-bg></div>
+
+      <div class="container">
+        <header class="chapter-header" data-reveal-block>
+          <div class="chapter-header-meta">
+            <span class="eyebrow-pill">CHAPTER 04 // ABOUT &amp; METHODOLOGY</span>
+            <span class="meta-coords">DISCIPLINE &amp; PROCESS</span>
+          </div>
+          <h2 class="section-title" id="process-heading">HOW I APPROACH EVERY BUILD.</h2>
+        </header>
+
+        <!-- Personal Introduction & Philosophy -->
+        <div class="about-editorial-grid">
+          <div class="about-statement" data-reveal-block>
+            <p class="statement-large">
+              <!-- EDITABLE PERSONAL STATEMENT -->
+              I treat the browser as a cinema screen and an engineering environment at the same time—where typography, lighting, and scroll physics serve clarity rather than distraction.
+            </p>
+            <p class="statement-body">
+              [REPLACE WITH YOUR PERSONAL BIO: Share your background, what excites you about web development, and the types of projects or collaborations you are currently exploring.]
+            </p>
+          </div>
+
+          <!-- Skills & Capabilities Matrix -->
+          <div class="skills-panel" data-reveal-
