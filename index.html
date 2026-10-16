@@ -69,10 +69,20 @@
 
   <main id="main-content">
     <!-- =====================================================================
-         CHAPTER 1: CINEMATIC HERO
+         CHAPTER 1: CINEMATIC HERO (With Dramatic Atmospheric Visual)
     ====================================================================== -->
     <section class="chapter hero-chapter" id="hero" aria-labelledby="hero-title">
       <div class="hero-backdrop-rings" aria-hidden="true">
+        <!-- Eager-loaded dramatic futuristic horizon visual (not lazy-loaded so initial screen is never empty) -->
+        <img
+          class="hero-atmosphere-img"
+          width="1600"
+          height="1000"
+          decoding="async"
+          fetchpriority="high"
+          alt=""
+          src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201600%201000%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22hg1%22%20cx%3D%2250%25%22%20cy%3D%2242%25%22%20r%3D%2265%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2338bdf8%22%20stop-opacity%3D%220.26%22%2F%3E%3Cstop%20offset%3D%2242%25%22%20stop-color%3D%22%231d4ed8%22%20stop-opacity%3D%220.12%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23050608%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3ClinearGradient%20id%3D%22hbeam%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%220%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23050608%22%20stop-opacity%3D%220%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%2338bdf8%22%20stop-opacity%3D%220.55%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23050608%22%20stop-opacity%3D%220%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%221600%22%20height%3D%221000%22%20fill%3D%22%23050608%22%2F%3E%3Crect%20width%3D%221600%22%20height%3D%221000%22%20fill%3D%22url(%23hg1)%22%2F%3E%3Cg%20stroke%3D%22%2338bdf8%22%20fill%3D%22none%22%3E%3Cellipse%20cx%3D%22800%22%20cy%3D%22420%22%20rx%3D%22620%22%20ry%3D%22240%22%20stroke-opacity%3D%220.16%22%20stroke-width%3D%221.5%22%2F%3E%3Cellipse%20cx%3D%22800%22%20cy%3D%22420%22%20rx%3D%22440%22%20ry%3D%22170%22%20stroke-opacity%3D%220.24%22%20stroke-width%3D%221.5%22%2F%3E%3Ccircle%20cx%3D%22800%22%20cy%3D%22420%22%20r%3D%22290%22%20stroke-opacity%3D%220.14%22%20stroke-dasharray%3D%226%2010%22%2F%3E%3Cpath%20d%3D%22M0%20680%20Q800%20520%201600%20680%22%20stroke%3D%22url(%23hbeam)%22%20stroke-width%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20740%20Q800%20580%201600%20740%22%20stroke-opacity%3D%220.15%22%20stroke-width%3D%221.5%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+        >
         <div class="hero-ring hero-ring--outer"></div>
         <div class="hero-ring hero-ring--inner"></div>
         <div class="hero-horizon-beam"></div>
@@ -116,7 +126,7 @@
     </section>
 
     <!-- =====================================================================
-         CHAPTER 2: PINNED CINEMATIC OBJECT
+         CHAPTER 2: PINNED CINEMATIC OBJECT (Metallic 3D Core + Core Artwork)
     ====================================================================== -->
     <section class="chapter artifact-chapter" id="artifact" aria-labelledby="artifact-heading">
       <div class="artifact-pin-wrap" id="artifact-pin-wrap">
@@ -182,7 +192,7 @@
     </section>
 
     <!-- =====================================================================
-         CHAPTER 3: SELECTED PROJECTS
+         CHAPTER 3: SELECTED PROJECTS (Verified High-Contrast Encoded Artwork)
     ====================================================================== -->
     <section class="chapter work-chapter" id="work" aria-labelledby="work-heading">
       <div class="container">
@@ -208,8 +218,9 @@
                   width="1200"
                   height="800"
                   loading="lazy"
-                  alt="The Obsidian Circle interactive digital community preview"
-                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%2305070b'/%3E%3Cstop offset='55%25' stop-color='%230d1424'/%3E%3Cstop offset='100%25' stop-color='%23030406'/%3E%3C/linearGradient%3E%3CradialGradient id='r1' cx='50%25' cy='50%25' r='50%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8' stop-opacity='0.4'/%3E%3Cstop offset='100%25' stop-color='%2305070b' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g1)'/%3E%3Crect width='1200' height='800' fill='url(%23r1)'/%3E%3Cg stroke='%2338bdf8' stroke-opacity='0.3' fill='none' stroke-width='2'%3E%3Ccircle cx='600' cy='400' r='220'/%3E%3Ccircle cx='600' cy='400' r='140'/%3E%3Ccircle cx='600' cy='400' r='60'/%3E%3Cline x1='200' y1='400' x2='1000' y2='400' stroke-opacity='0.2'/%3E%3Cline x1='600' y1='100' x2='600' y2='700' stroke-opacity='0.2'/%3E%3C/g%3E%3Ctext x='100' y='140' fill='%2394a3b8' font-family='monospace' font-size='22' letter-spacing='6'%3ETHE OBSIDIAN CIRCLE // COMMUNITY HUB%3C/text%3E%3C/svg%3E"
+                  decoding="async"
+                  alt="The Obsidian Circle digital community hub visual featuring a glowing obsidian monolith ring and connected network nodes"
+                  src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg1%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2304060a%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%230b1528%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2305070c%22%2F%3E%3C%2FlinearGradient%3E%3CradialGradient%20id%3D%22gl1%22%20cx%3D%2250%25%22%20cy%3D%2250%25%22%20r%3D%2248%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2338bdf8%22%20stop-opacity%3D%220.48%22%2F%3E%3Cstop%20offset%3D%2245%25%22%20stop-color%3D%22%231d4ed8%22%20stop-opacity%3D%220.22%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2304060a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%221200%22%20height%3D%22800%22%20fill%3D%22url(%23bg1)%22%2F%3E%3Crect%20width%3D%221200%22%20height%3D%22800%22%20fill%3D%22url(%23gl1)%22%2F%3E%3Cg%20stroke%3D%22%2338bdf8%22%20fill%3D%22none%22%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22410%22%20r%3D%22260%22%20stroke-opacity%3D%220.2%22%20stroke-width%3D%221.5%22%2F%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22410%22%20r%3D%22200%22%20stroke-opacity%3D%220.45%22%20stroke-width%3D%222%22%20stroke-dasharray%3D%2212%208%22%2F%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22410%22%20r%3D%22140%22%20stroke%3D%22%23e0f2fe%22%20stroke-opacity%3D%220.85%22%20stroke-width%3D%224%22%2F%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22410%22%20r%3D%2295%22%20fill%3D%22%23050811%22%20stroke%3D%22%2338bdf8%22%20stroke-opacity%3D%220.6%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%22600%2C290%20704%2C470%20496%2C470%22%20stroke%3D%22%2338bdf8%22%20stroke-opacity%3D%220.55%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%22600%2C530%20704%2C350%20496%2C350%22%20stroke%3D%22%2360a5fa%22%20stroke-opacity%3D%220.4%22%20stroke-width%3D%221.5%22%2F%3E%3Cline%20x1%3D%22120%22%20y1%3D%22410%22%20x2%3D%22340%22%20y2%3D%22410%22%20stroke-opacity%3D%220.35%22%2F%3E%3Cline%20x1%3D%22860%22%20y1%3D%22410%22%20x2%3D%221080%22%20y2%3D%22410%22%20stroke-opacity%3D%220.35%22%2F%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22210%22%20r%3D%227%22%20fill%3D%22%23e0f2fe%22%2F%3E%3Ccircle%20cx%3D%22800%22%20cy%3D%22410%22%20r%3D%227%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22400%22%20cy%3D%22410%22%20r%3D%227%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22600%22%20cy%3D%22610%22%20r%3D%227%22%20fill%3D%22%23e0f2fe%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%2270%22%20y%3D%2260%22%20width%3D%221060%22%20height%3D%22680%22%20stroke%3D%22%2338bdf8%22%20stroke-opacity%3D%220.18%22%20fill%3D%22none%22%2F%3E%3Ctext%20x%3D%22105%22%20y%3D%22115%22%20fill%3D%22%23e0f2fe%22%20font-family%3D%22monospace%22%20font-size%3D%2220%22%20letter-spacing%3D%225%22%3E01%20%2F%2F%20THE%20OBSIDIAN%20CIRCLE%3C%2Ftext%3E%3Ctext%20x%3D%22105%22%20y%3D%22705%22%20fill%3D%22%2338bdf8%22%20font-family%3D%22monospace%22%20font-size%3D%2216%22%20letter-spacing%3D%224%22%3EDIGITAL%20COMMUNITY%20%26%20STRATEGY%20NETWORK%3C%2Ftext%3E%3C%2Fsvg%3E"
                 >
                 <div class="project-frame-overlay" aria-hidden="true"></div>
               </div>
@@ -244,119 +255,6 @@
                   width="1200"
                   height="800"
                   loading="lazy"
-                  alt="AI Lab intelligent web experiments preview"
-                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g2' x1='1' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%2305070b'/%3E%3Cstop offset='50%25' stop-color='%23111827'/%3E%3Cstop offset='100%25' stop-color='%2305070b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g2)'/%3E%3Cg stroke='%2360a5fa' stroke-opacity='0.25' fill='none' stroke-width='1.5'%3E%3Crect x='200' y='180' width='800' height='440'/%3E%3Cline x1='200' y1='300' x2='1000' y2='300'/%3E%3Ccircle cx='300' cy='240' r='18' fill='%2338bdf8' fill-opacity='0.5'/%3E%3Ccircle cx='360' cy='240' r='18' fill='%2360a5fa' fill-opacity='0.3'/%3E%3Cpath d='M 350 480 Q 500 360 650 480 T 950 380' stroke='%2338bdf8' stroke-width='3' stroke-opacity='0.7'/%3E%3C/g%3E%3Ctext x='100' y='140' fill='%2394a3b8' font-family='monospace' font-size='22' letter-spacing='6'%3EAI LAB // INTELLIGENT EXPERIMENTS%3C/text%3E%3C/svg%3E"
-                >
-                <div class="project-frame-overlay" aria-hidden="true"></div>
-              </div>
-            </div>
-
-            <div class="project-info-col" data-project-info>
-              <div class="project-meta-top">
-                <span class="project-number">02</span>
-                <span class="project-category">HTML / CSS / JavaScript / Python / AI</span>
-                <span class="project-status">COMING SOON</span>
-              </div>
-              <h3 class="project-title">AI Lab</h3>
-              <p class="project-description">
-                An evolving collection of AI-powered web experiments exploring intelligent interfaces, automation, and creative problem-solving. Focused on turning ideas into practical, interactive prototypes.
-              </p>
-              <div class="project-links">
-                <a href="#work" class="project-link" aria-label="AI Lab coming soon">
-                  <span>In Development (Coming Soon)</span>
-                  <span class="btn-arrow" aria-hidden="true">&#8599;</span>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROJECT 03: MOTION LAB -->
-          <article class="project-entry project-entry--editorial-wide" data-project-entry>
-            <div class="project-visual-col">
-              <div class="project-frame" data-project-frame>
-                <img
-                  class="project-image"
-                  data-project-img
-                  width="1200"
-                  height="800"
-                  loading="lazy"
-                  alt="MotionLab cinematic web experiments preview"
-                  src="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='g3' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0%25' stop-color='%2305070b'/%3E%3Cstop offset='70%25' stop-color='%230b1322'/%3E%3Cstop offset='100%25' stop-color='%23172554'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='800' fill='url(%23g3)'/%3E%3Cg stroke='%2338bdf8' stroke-opacity='0.35' fill='none' stroke-width='1.5'%3E%3Cline x1='0' y1='500' x2='1200' y2='500' stroke='%23e0f2fe' stroke-opacity='0.7' stroke-width='2'/%3E%3Cpolygon points='600,240 760,500 440,500' stroke='%23e0f2fe' stroke-opacity='0.8' stroke-width='2.5' fill='%2338bdf8' fill-opacity='0.1'/%3E%3C/g%3E%3Ctext x='100' y='140' fill='%2394a3b8' font-family='monospace' font-size='22' letter-spacing='6'%3EMOTIONLAB // KINETIC STORYTELLING%3C/text%3E%3C/svg%3E"
-                >
-                <div class="project-frame-overlay" aria-hidden="true"></div>
-              </div>
-            </div>
-
-            <div class="project-info-col" data-project-info>
-              <div class="project-meta-top">
-                <span class="project-number">03</span>
-                <span class="project-category">GSAP / ScrollTrigger / Web Animation</span>
-                <span class="project-status">IN DEVELOPMENT</span>
-              </div>
-              <h3 class="project-title">MotionLab</h3>
-              <p class="project-description">
-                An experimental creative development project exploring scroll-driven storytelling, cinematic transitions, interactive visual effects, and immersive web experiences.
-              </p>
-              <div class="project-links">
-                <a href="#work" class="project-link" aria-label="MotionLab in development">
-                  <span>In Development</span>
-                  <span class="btn-arrow" aria-hidden="true">&#8599;</span>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- =====================================================================
-         CHAPTER 4: ABOUT AND CREATIVE PROCESS
-    ====================================================================== -->
-    <section class="chapter process-chapter" id="process" aria-labelledby="process-heading">
-      <div class="process-parallax-bg" aria-hidden="true" data-process-bg></div>
-
-      <div class="container">
-        <header class="chapter-header" data-reveal-block>
-          <div class="chapter-header-meta">
-            <span class="eyebrow-pill">CHAPTER 04 // ABOUT &amp; METHODOLOGY</span>
-            <span class="meta-coords">DISCIPLINE &amp; PROCESS</span>
-          </div>
-          <h2 class="section-title" id="process-heading">HOW I APPROACH EVERY BUILD.</h2>
-        </header>
-
-        <!-- Personal Introduction & Philosophy -->
-        <div class="about-editorial-grid">
-          <div class="about-statement" data-reveal-block>
-            <p class="statement-large">
-              I treat the browser as a canvas for intelligent systems and cinematic storytelling—where code, AI tools, and motion work in harmony.
-            </p>
-            <p class="statement-body">
-              As a creative developer and technology enthusiast, I am passionate about exploring how artificial intelligence, futuristic aesthetic design, and high-performance front-end engineering intersect to shape the future of digital experiences.
-            </p>
-          </div>
-
-          <!-- Skills & Capabilities Matrix -->
-          <div class="skills-panel" data-reveal-block>
-            <h3 class="panel-heading">CAPABILITIES &amp; FOCUS AREAS</h3>
-            <div class="skills-groups">
-              <div class="skill-group">
-                <h4 class="skill-group-title">Front-End &amp; Architecture</h4>
-                <ul class="skill-tags">
-                  <li>Semantic HTML5</li>
-                  <li>Modern CSS &amp; Flex/Grid</li>
-                  <li>JavaScript (ES6+)</li>
-                  <li>Responsive UI Architecture</li>
-                </ul>
-              </div>
-
-              <div class="skill-group">
-                <h4 class="skill-group-title">Motion &amp; Interaction</h4>
-                <ul class="skill-tags">
-                  <li>GSAP &amp; ScrollTrigger</li>
-                  <li>CSS 3D Transforms</li>
-                  <li>SVG Visual Design</li>
-                  <li>Cinematic Pacing</li>
-                </ul>
-              </div>
-
-              <div class="skill-grou
+                  decoding="async"
+                  alt="AI Lab neural network interface visual showing glowing nodes, synaptic pathways, and telemetry wave analysis"
+                  src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201200%20800%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22bg2%22%20x1%3D%221%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2304070d%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%230e1c36%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2304060a%22%2F%3E%3C%2FlinearGradient%3E%3CradialGradient%20id%3D%22gl2%22%20cx%3D%2262%25%22%20cy%3D%2246%25%22%20r%3D%2248%25%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%2360a5fa%22%20stop-opacity%3D%220.42%22%2F%3E%3Cstop%20offset%3D%2255%25%22%20stop-color%3D%22%231d4ed8%22%20stop-opacity%3D%220.16%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%2304060a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%221200%22%20height%3D%22800%22%20fill%3D%22url(%23bg2)%22%2F%3E%3Crect%20width%3D%221200%22%20height%3D%22800%22%20fill%3D%22url(%23gl2)%22%2F%3E%3Cg%20stroke%3D%22%2338bdf8%22%20fill%3D%22none%22%3E%3Crect%20x%3D%22130%22%20y%3D%22150%22%20width%3D%22940%22%20height%3D%22500%22%20rx%3D%226%22%20stroke-opacity%3D%220.28%22%20stroke-width%3D%221.5%22%20fill%3D%22%23060b16%22%20fill-opacity%3D%220.65%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%22215%22%20x2%3D%221070%22%20y2%3D%22215%22%20stroke-opacity%3D%220.28%22%2F%3E%3Cpath%20d%3D%22M260%20320%20L480%20270%20L710%20340%20L910%20260%22%20stroke-opacity%3D%220.5%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M260%20470%20L480%20390%20L710%20460%20L910%20380%22%20stroke-opacity%3D%220.6%22%20stroke-width%3D%222%22%2F%3E%3Cpath%20d%3D%22M260%20320%20L480%20390%20L710%20340%20L910%20380%22%20stroke-opacity%3D%220.32%22%20stroke-dasharray%3D%226%206%22%2F%3E%3Cpath%20d%3D%22M180%20575%20Q360%20470%20540%20560%20T900%20500%20T1020%20545%22%20stroke%3D%22%23e0f2fe%22%20stroke-width%3D%223%22%20stroke-opacity%3D%220.85%22%2F%3E%3Ccircle%20cx%3D%22260%22%20cy%3D%22320%22%20r%3D%2212%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22480%22%20cy%3D%22270%22%20r%3D%2214%22%20fill%3D%22%23e0f2fe%22%2F%3E%3Ccircle%20cx%3D%22710%22%20cy%3D%22340%22%20r%3D%2216%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22910%22%20cy%3D%22260%22%20r%3D%2212%22%20fill%3D%22%23e0f2fe%22%2F%3E%3Ccircle%20cx%3D%22260%22%20cy%3D%22470%22%20r%3D%2210%22%20fill%3D%22%2360a5fa%22%2F%3E%3Ccircle%20cx%3D%22480%22%20cy%3D%22390%22%20r%3D%2215%22%20fill%3D%22%2338bdf8%22%2F%3E%3Ccircle%20cx%3D%22710%22%20cy%3D%22460%22%20r%3D%2212%22%20fill%3D%22%23e0f2fe%22%2F%3E%3Ccircle%20cx%3D%22910%22%20cy%3D%22380%22%20r%3D%2214%22%20fill%3D%22%2338bdf8%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%22165%22%20y%3D%22192%22%20fill%3D%22%23e0f2fe%22%20font-family%3D%
